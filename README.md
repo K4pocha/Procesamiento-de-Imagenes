@@ -9,6 +9,10 @@ Este proyecto captura la pantalla en intervalos de 10 segundos y guarda cada ima
    pip install pillow opencv-python
    ```
 
+## Instrucciones de Descarga 
+1. Ve a la sección de "Code" de la página. 
+2. Click a "Download ZIP" 
+3. Extrae la carpeta dentro del achivo .Zip (que será la carpeta que debes abrir con VSCode).
 
 ## Instrucciones de Ejecución
 ### Opción 1: Usar Visual Studio Code (VSCode)
@@ -20,6 +24,7 @@ Este proyecto captura la pantalla en intervalos de 10 segundos y guarda cada ima
     ```
     python nombre_del_archivo.py
     ```
+**Nota:** Es necesario tener instaladas las extensiones en VSCode (CTRL + SHIFT + X) de Python.
 
 ### Opción 2: Usar la Consola de Windows
 
