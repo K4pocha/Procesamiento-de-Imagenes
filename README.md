@@ -22,9 +22,15 @@ python nombre_del_archivo.py
 ### Opción 2: Usar la Consola de Windows
 
 1. Navega a la carpeta del proyecto en la consola de Windows usando el comando cd:
-cd ruta\a\la\carpeta
+   ```
+    cd ruta\a\la\carpeta
+   ```
 2. Ejecuta el script de Python:
-python nombre_del_archivo.py
+   ```
+    python "nombre_del_archivo.py"
+   ```
+
+¡Listo! El programa capturará la pantalla cada 10 segundos y guardará las imágenes en la carpeta captured_images.
 
 ### Detalles del Proyecto
 Este programa realiza una captura de pantalla cada 10 segundos y guarda cada imagen en una carpeta llamada captured_images. Las imágenes están en formato PNG y están listas para análisis posterior con OpenCV.
