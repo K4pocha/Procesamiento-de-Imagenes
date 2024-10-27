@@ -1,4 +1,4 @@
-# ProcesamientoImagenes - Screen Capture for Fluid Measurement
+# Procesamiento de Imagenes - Screen Capture for Fluid Measurement
 Este proyecto captura la pantalla en intervalos de 10 segundos y guarda cada imagen en un directorio. Posteriormente, las imágenes se pueden procesar con OpenCV para medir el porcentaje de espacio utilizado por un fluido en un recipiente horizontal.
 
 ## Requisitos
