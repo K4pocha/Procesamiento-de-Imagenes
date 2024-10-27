@@ -11,13 +11,15 @@ Este proyecto captura la pantalla en intervalos de 10 segundos y guarda cada ima
 
 
 ## Instrucciones de Ejecución
-**Opción 1:** Usar Visual Studio Code (VSCode)
+### Opción 1: Usar Visual Studio Code (VSCode)
 
 1. Abre Visual Studio Code.
 2. Abre la carpeta del proyecto en VSCode: ve a Archivo > Abrir carpeta... y selecciona la carpeta del proyecto.
 3. Abre una terminal dentro de VSCode: selecciona Terminal > Nueva terminal (CTRL + Ñ).
 4. Escribe el siguiente comando para ejecutar el script:
-python nombre_del_archivo.py
+    ```
+    python nombre_del_archivo.py
+    ```
 
 ### Opción 2: Usar la Consola de Windows
 
@@ -32,9 +34,9 @@ python nombre_del_archivo.py
 
 ¡Listo! El programa capturará la pantalla cada 10 segundos y guardará las imágenes en la carpeta captured_images.
 
-### Detalles del Proyecto
+## Detalles del Proyecto
 Este programa realiza una captura de pantalla cada 10 segundos y guarda cada imagen en una carpeta llamada captured_images. Las imágenes están en formato PNG y están listas para análisis posterior con OpenCV.
 
-### Notas
+## Notas
 Asegúrate de tener permisos de escritura en el directorio donde se guardarán las capturas.
 Para detener el script, simplemente cierra la terminal o usa Ctrl + C en la consola para interrumpir el proceso.
