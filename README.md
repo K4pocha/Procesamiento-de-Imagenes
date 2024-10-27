@@ -10,7 +10,7 @@ Este proyecto captura la pantalla en intervalos de 10 segundos y guarda cada ima
    ```
 
 
-### Instrucciones de Ejecución
+## Instrucciones de Ejecución
 **Opción 1:** Usar Visual Studio Code (VSCode)
 
 1. Abre Visual Studio Code.
