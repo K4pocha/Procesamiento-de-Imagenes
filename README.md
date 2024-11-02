@@ -5,6 +5,8 @@ Este repositorio contiene varios scripts en Python para el procesamiento de imá
 ## Contenido
 
 - [Requisitos](#requisitos)
+   - [Instrucciones de Descarga](#instrucciones-de-descarga)
+   - [ Instrucciones de Ejecución](#instrucciones-de-ejecución)
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Uso](#uso)
   - [Programa de Captura de Pantalla (screenshots)](#programa-de-captura-de-pantalla)
@@ -16,8 +18,41 @@ Este repositorio contiene varios scripts en Python para el procesamiento de imá
 
 Para ejecutar estos programas, necesitas instalar los siguientes paquetes de Python:
 
+1. **Python 3** - Puedes descargarlo desde [python.org:] (https://www.python.org/downloads/)
+
+2. **Paquetes necesarios** - Ejecuta el siguiente comando en la terminal para instalar las bibliotecas necesarias (Pillow y OpenCV):
+
 ```
 pip install opencv-python numpy pillow
+```
+
+### Instrucciones de Descarga
+1. Ve a la sección de "Code" de la página.
+2. Click a "Download ZIP"
+3. Extrae la carpeta dentro del achivo .Zip (que será la carpeta que debes abrir con VSCode).
+
+### Instrucciones de Ejecución
+
+**Opción 1: Usar Visual Studio Code (VSCode)**
+1. Abre Visual Studio Code.
+2. Abre la carpeta del proyecto en VSCode: ve a Archivo > Abrir carpeta... y selecciona la carpeta del proyecto.
+3. Abre una terminal dentro de VSCode: selecciona Terminal > Nueva terminal (CTRL + Ñ).
+4. Escribe el siguiente comando para ejecutar el script:
+```
+python "nombre_del_archivo.py"
+```
+***Nota: Es necesario tener instaladas las extensiones en VSCode (CTRL + SHIFT + X) de Python.***
+
+**Opción 2: Usar la Consola de Windows**
+
+1. Navega a la carpeta del proyecto en la consola de Windows usando el comando cd:
+```
+ cd ruta\a\la\carpeta
+```
+
+2. Estando ya en la carpeta, Ejecuta el script de Python:
+ ```
+python "nombre_del_archivo.py"
 ```
 
 ## Estructura del Proyecto
